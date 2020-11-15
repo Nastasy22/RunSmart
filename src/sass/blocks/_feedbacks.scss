@@ -1,0 +1,42 @@
+.feedbacks {
+    padding-bottom: 71px;
+    &__items {
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    &__item {
+        padding-top: 100px;
+        &:nth-child(1) {
+            padding-top: 0;
+        }
+        display: flex;
+    }
+    &__photo {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    &__feed {
+        color: #0d0d0d;
+        font-weight: 300;
+        line-height: normal;
+        margin-right: 60px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marathon {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+    }
+}

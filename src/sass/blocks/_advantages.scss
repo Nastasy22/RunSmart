@@ -10,9 +10,21 @@
     }
     &__item {
         width: 247px;
-        img {
+        &__icon {
             display: block;
             margin: 0 auto;
+            &_animated {
+                display: block;
+                margin: 0 auto;
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+/*                 animation-name: heartbeat;
+                animation-duration: 1.5s;
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+ */            }
         }
         &__header {
             margin-top: 38px;
